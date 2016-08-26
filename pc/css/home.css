@@ -1,0 +1,6 @@
+body{background-color: #202020;}
+h1{width:0;height:0;overflow:hidden;}
+.main{min-width:1000px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1000?"1000px":"");}
+.content{width:1000px;margin:0 auto;}
+.header{padding: 100px 0; background:#111 url(../img/header-bg.png);}
+.slogan{width: 365px; display:block; margin: 0 auto; text-align: right; font-size: 18px; font-weight: bold; color: #333; font-family: "STKaiti";}

@@ -5,6 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="description" content="douchaoyang.gitHub.io : Talk is cheap . Show me the code .">
 <title>douchaoyang.gitHub.io</title>
+<script>
+var mobileUrl = "m/index.html",pcUrl="pc/index.html";
+if(/iphone|nokia|sony|ericsson|mot|samsung|sgh|lg|philips|panasonic|alcatel|lenovo|cldc|midp|wap|android|iPod/i.test(navigator.userAgent.toLowerCase())){ 
+  if(mobileUrl){
+	document.location.href = mobileUrl
+  }
+}
+else
+{
+  document.location.href = pcUrl
+}
+</script>
 </head>
 <body>
 	<h1>Welcome to douchaoyang 's github :)</h1>
