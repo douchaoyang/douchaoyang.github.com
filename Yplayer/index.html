@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="http://img1.tiancitycdn.com/cls/utils/base/base.y.css">
+<style type="text/css">
+body{height: 2000px; background-color: #ccc;}
+a{color: #000; font-size: 36px; font-weight: bold;}
+a:hover{color: #f00;}
+</style>
+</head>
+<body>
+https 下视频无法加载:(
+<div id="videobox"></div>
+<a href="javascript:levia.Load('videobox');" id="videopop">加载吧~</a>
+<br><br><br><br>
+<a href="javascript:levia.Pop();" id="videopop">弹出吧~</a>
+<script type="text/javascript" src="Yplayer.js"></script>
+<script type="text/javascript">
+var levia=new Yplayer({
+	"url":"http://img1.tiancitycdn.com/cls/event/adsland/videos/levia.flv",
+	"width":720,
+	"height":405,
+	"auto":1,
+	"showbar":3,
+	"showtime":1,
+	"repeat":1
+});
+</script>
+</body>
+</html>
