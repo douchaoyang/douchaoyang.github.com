@@ -13,3 +13,4 @@ h1{width:0;height:0;overflow:hidden;}
 .artical ul li a:hover{color: #009966;}
 .artical ul li i{width: 180px; padding: 20px 0; border-bottom: 2px solid #111; position: absolute; top: 0; right: 0; height: 50px; line-height: 50px; text-align: right; font-size: 30px; color: #666; font-weight: bold; cursor: default;}
 .artical .tip{font-size: 14px; line-height: 20px; color: #333; text-align: center; padding-top: 20px;}
+.artical .loading{display: block; margin: 0 auto;}
