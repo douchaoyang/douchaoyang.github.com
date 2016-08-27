@@ -1,6 +1,15 @@
 body{background-color: #202020;}
 h1{width:0;height:0;overflow:hidden;}
 .main{min-width:1000px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1000?"1000px":"");}
-.content{width:1000px;margin:0 auto;}
+.content{width:1000px;margin:0 auto; padding: 40px 0; overflow: hidden;}
 .header{padding: 100px 0; background:#111 url(../img/header-bg.png);}
 .slogan{width: 365px; display:block; margin: 0 auto; text-align: right; font-size: 18px; font-weight: bold; color: #333; font-family: "STKaiti";}
+.footer{padding: 40px 0; font-size: 14px; color: #999; background-color: #111;}
+.footer ul{width: 1000px; margin: 0 auto;}
+.footer ul li{line-height: 20px;}
+.footer ul b{display: inline-block; *display: inline; *zoom: 1; width: 50px;}
+.artical ul li{border-bottom: 1px solid #333; position: relative;}
+.artical ul li a{width: 820px; padding: 20px 0; border-bottom: 2px solid #111; display: block; font-size: 32px; color: #e5e5e5; font-weight: bold; height: 50px; line-height: 50px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
+.artical ul li a:hover{color: #009966;}
+.artical ul li i{width: 180px; padding: 20px 0; border-bottom: 2px solid #111; position: absolute; top: 0; right: 0; height: 50px; line-height: 50px; text-align: right; font-size: 30px; color: #666; font-weight: bold; cursor: default;}
+.artical .tip{font-size: 14px; line-height: 20px; color: #333; text-align: center; padding-top: 20px;}
