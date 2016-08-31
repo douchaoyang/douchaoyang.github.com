@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+<meta name="author" content="douchaoyang">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="窦超阳，douchaoyang，gitHub，github，敢于有心无心境，得自有意无意间">
+<meta name="keywords" content="窦超阳,窦,douchaoyang,Douchaoyang,DOUCHAOYANG,gitHub,github,GITHUB,young,Young,YOUNG,个人简历,动感超阳,阳仔,阳哥,超阳仔,大个儿,篮球,死神,火影忍者,海贼王">
+<title>Ads - douchaoyang</title>
+<style type="text/css">
+/*basic.css - Written by douchaoyang in September 2015*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font-size:12px;font-family:"Microsoft Yahei",arial;outline:none;}
+em,strong,th,i{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+a{text-decoration:none;cursor:pointer;outline:none;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul,li{list-style:none;}
+fieldset,img{border:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix{*zoom:1;}
+/*basic end*/
+body{ background-color: #202020; color: #999;text-align: center;}
+.slider{ width: 435px; height: 505px; background-color: #000; overflow: hidden; position: relative; color: #fff; margin: 0 auto;}
+.slider a{ width: 435px; height: 505px; display: block; position: absolute; top: 0; left: 0;}
+p span{cursor: pointer; display: inline-block; margin: 0 5px; background-color: #ccc; width: 14px; height: 14px;}
+p span.on{background-color:#009966;}
+.btn{color: #ccc; font-size: 18px; font-weight: bold;}
+.btn:hover{color: #f00;}
+</style>
+</head>
+<body>
+<div id="slider" class="slider">
+	广告洽谈 http://iga.tiancity.com
+	<a><img src="1.jpg"></a>
+	<a><img src="2.jpg"></a>
+	<a><img src="3.jpg"></a>
+</div>
+<p id="slider_control">
+</p>
+<a class="btn" href="javascript:ads.Prev();">上一帧</a>---------------------<a class="btn" href="javascript:ads.Next();">下一帧</a>
+<script type="text/javascript" src="Ads.js"></script>
+<script type="text/javascript">
+/*
+var ads=new Ads({
+	"container":"slider",广告轮播容器id
+	"control":"slider_control",广告轮播控制容器id 子元素必须为span元素
+	"onClass":"on",控制按钮高亮样式类名
+        "useHover":true,切换控制的方式 默认false
+	"stay":3000广告停留时间 默认3e3
+});
+
+标准结构
+
+<div id="slider">
+	<a><img src="1.jpg"></a>
+	<a><img src="2.jpg"></a>
+	<a><img src="3.jpg"></a>
+</div>
+<p id="slider_control">
+</p>
+
+扩展函数：
+
+ads.Next()
+
+ads.Prev()
+*/
+var ads=new Ads({
+	"container":"slider",
+	"control":"slider_control",
+	"onClass":"on",
+	"useHover":false,
+	"stay":3000
+});
+</script>
+</body>
+</html>
