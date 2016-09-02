@@ -17,7 +17,7 @@ audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
 svg:not(:root){overflow:hidden}
 button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
-button,input,optgroup,select,textarea{color:inherit;font:inherit;outline:none}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;outline:none;border:0}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 button[disabled],html input[disabled]{cursor:default}
 button,select{text-transform:none}
