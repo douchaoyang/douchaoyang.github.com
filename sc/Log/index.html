@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+<meta name="author" content="douchaoyang">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="窦超阳，douchaoyang，gitHub，github，敢于有心无心境，得自有意无意间">
+<meta name="keywords" content="窦超阳,窦,douchaoyang,Douchaoyang,DOUCHAOYANG,gitHub,github,GITHUB,young,Young,YOUNG,个人简历,动感超阳,阳仔,阳哥,超阳仔,大个儿,篮球,死神,火影忍者,海贼王">
+<title>Log - douchaoyang</title>
+<style type="text/css">
+/*basic.css - Written by douchaoyang in September 2015*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font-size:12px;font-family:"Microsoft Yahei",arial;outline:none;}
+em,strong,th,i{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+a{text-decoration:none;cursor:pointer;outline:none;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul,li{list-style:none;}
+fieldset,img{border:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix{*zoom:1;}
+/*basic end*/
+body{height: 2000px;background-color: #202020; color: #999;}
+#alert-one{ width: 500px; height: 500px; background-color: #333; display: none;}
+#alert-two{ width: 700px; height: 300px; background-color: #666; display: none;}
+a{color: #fff; font-size: 18px;}
+a:hover{color: #f00;}
+</style>
+</head>
+<body>
+<div class="wrap">
+测试IE6以下 select层级问题
+<select>
+	<option>test test</option>
+	<option>test test</option>
+	<option>test test</option>
+</select>
+<br><br><br>
+<a href="javascript:log.Show('alert-one');">弹出弹窗层</a>
+<div id="alert-one">
+	<a href="javascript:log.Hide();">关闭弹窗</a><br>
+	<a href="javascript:log.Show('alert-two');">显示第二个弹窗</a>
+</div>
+<div id="alert-two">
+	<a href="javascript:log.Hide();">关闭第二个弹窗</a>
+</div>
+</div>
+<script type="text/javascript" src="Dialog.js"></script>
+<script type="text/javascript">
+	var log=new Log({"Scroll":true,"Bcolor":"#000","Opacity":"50"});
+</script>
+</body>
+</html>
