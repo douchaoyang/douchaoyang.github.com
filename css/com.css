@@ -1,0 +1,20 @@
+body{background: #fff; position: relative;}
+#particles{position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 0;}
+.main{width: 1000px; height: 1000px; margin: 0 auto; background-color: #f8f8f8; border-top: 3px solid #9D2932; padding: 0 12px; position: relative; z-index: 1;}
+.header h1{width: 100%; height: 120px; overflow: hidden;}
+.header h1 a{display: block; width: 100%; height: 120px; background: #b1b1b1 url(../img/slogan-bg.png) no-repeat left bottom; text-indent: -9999em; transition: background-color .2s; -webkit-transition: background-color .2s;}
+.header h1 a:hover{background-color: #c1c1c1;}
+.header .nav{height: 60px; overflow: hidden; background-color: #fff;}
+.nav a,.nav span,.nav p{display: block; float: left; *display: inline; overflow: hidden;}
+.nav a{padding: 0 26px; line-height: 59px; text-align: center; color: #666; font-size: 22px;}
+.nav a:hover{color: #333; border-bottom: 1px solid #000}
+.nav span{width: 8px; line-height: 60px; color: #c1c1c1; cursor: default;}
+.nav p{line-height: 60px; font-size: 32px; padding-left: 32px; color: #f2f2f2; cursor: default;}
+.nav p i{font-weight: bold; color: #e0e0e0;}
+.nav p i.spark1{animation: spark 1.2s ease 0s infinite; -webkit-animation: spark 1.2s ease 0s infinite;}
+.nav p i.spark2{animation: spark 1.2s ease 0.2s infinite; -webkit-animation: spark 1.2s ease 0.2s infinite;}
+.nav p i.spark3{animation: spark 1.2s ease 0.4s infinite; -webkit-animation: spark 1.2s ease 0.4s infinite;}
+@-webkit-keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
+@-moz-keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
+@-o-keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
+@keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
