@@ -14,7 +14,7 @@ body{background: #fff; position: relative;}
 .nav p i.spark1{animation: spark 1.2s ease 0s infinite; -webkit-animation: spark 1.2s ease 0s infinite;}
 .nav p i.spark2{animation: spark 1.2s ease 0.2s infinite; -webkit-animation: spark 1.2s ease 0.2s infinite;}
 .nav p i.spark3{animation: spark 1.2s ease 0.4s infinite; -webkit-animation: spark 1.2s ease 0.4s infinite;}
-.footer{background-color: #b1b1b1; color: #fff; text-align: center; line-height: 50px;}
+.footer{background-color: #b1b1b1; color: #fff; text-align: center; line-height: 66px;}
 .footer a{color: #fff;}
 @-webkit-keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
 @-moz-keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
