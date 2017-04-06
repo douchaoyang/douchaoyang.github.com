@@ -24,3 +24,9 @@ body{background: #fff; position: relative;}
 #slogan{font-size: 64px; text-align: center; color: #ccc; padding: 100px 0; height: 200px; line-height: 150%; border-top: 1px solid #eee;}
 #music{width: 66px; height: 66px; overflow: hidden; position: fixed; bottom: 0; left: 0; _position: absolute; z-index: 1;}
 #music iframe{position: absolute; left: -10px; top: -10px;}
+
+#f2e-code{padding-bottom: 40px; background: url(img/loading.gif) no-repeat center top;}
+#f2e-code li{border: 1px solid #eee; padding: 0 12px 12px 12px; background-color: #f8f8f8; margin-bottom: 12px;}
+#f2e-code h3{font-size: 24px; padding: 18px 0; color: #b6b6b6;}
+#f2e-code h3 i{font-size: 20px; color: #d6d6d6; font-style: italic; margin-left: 12px;}
+#f2e-code pre{padding: 12px; background-color: #212121; color: #cdd3dd; font-size: 14px; line-height: 120%; overflow: hidden; text-overflow: ellipsis; cursor: default; border-top: 3px solid #9D2932; border-bottom: 6px solid #eee;}

@@ -12,11 +12,11 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/com.css">
-	<title>窦超阳 | Dou,Chaoyang - WELCOME!</title>
+	<title>窦超阳 | Dou,Chaoyang - F2E/CODE</title>
 </head>
 <body>
 	<div class="main">
-		<div class="header">
+		<div class="header">	
 			<h1><a href="/">Dou,Chaoyang's site :)</a></h1>
 			<div class="nav">
 				<a href="/f2e-code.html">F2E/CODE</a>
@@ -30,7 +30,8 @@
 			</div>	
 		</div>
 		<div class="content">
-			<h2 id="slogan">......</h2>
+			<ul id="f2e-code">
+			</ul>
 		</div>
 		<div class="footer">
 			&copy;2017 <a href="http://www.douchaoyang.com/">douchaoyang</a>
@@ -40,38 +41,8 @@
 	<div id="particles"></div>
 	<div id="music">SONG</div>
 
+
 	<script type="text/javascript" src="js/app.js"></script>
-	<script type="text/javascript">
-		var slogan_word=[
-			"大家好~_~",
-			"我的中文名字叫窦超阳^_^",
-			"英文名字叫Dou,Chaoyang ~↑",
-			"我是个前端工程师……",
-			"也就是个切图滴,,,",
-			"我懂的不多~BUT！！！",
-			"我有些话想对设计师说:",
-			"此处省略一万字和一些表情...",
-			"好了",
-			"我的时间不多了...",
-			"最后送您一句话",
-			"约不约呀妹子~~~",
-			"呸！不是这句",
-			"咳咳，来了来了",
-			"我滴人生格言@#$%^&*",
-			"敢于有心无心境<br>得自有意无意间"
-			];
-		var flag=0;
-		var slogan=document.getElementById("slogan");
-		(function(){
-			setTimeout(function(){
-				slogan.innerHTML=slogan_word[flag];
-				flag++;
-				if(flag<slogan_word.length)
-				{
-					setTimeout(arguments.callee,3000)
-				}
-			},1000)
-		})();
-	</script>
+	<script type="text/javascript" src="js/f2e-code.js"></script>
 </body>
 </html>
