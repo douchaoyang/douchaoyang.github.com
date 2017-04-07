@@ -13,6 +13,17 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/com.css">
 	<title>窦超阳 | Dou,Chaoyang - PROJECT</title>
+	<style type="text/css">
+		#project{border-top: 1px solid #eee; overflow: hidden; padding-top: 24px;}
+		#project li{height: 132px; position: relative; overflow: hidden; padding-left: 312px; background-color: #fefefe; margin-bottom: 48px; border-bottom: 1px solid #eee; transition: all .2s; -webkit-transition: all .2s;}
+		#project li:hover{background-color: #f3f3f3;}
+		#project li img{position: absolute; left: 0; top: 0; transition: left .2s; -webkit-transition: left .2s; border-right: 2px solid #eee;}
+		#project li h3{font-size: 32px; color: #c1c1c1; line-height: 60px; width: 580px;}
+		#project li h3 b{color: #a1a1a1; font-weight: normal;}
+		#project li h3 i{font-size: 24px; font-style: italic; margin-left: 12px;}
+		#project li p{font-size: 16px; width: 580px; color: #b1b1b1; line-height: 22px;}
+		#project li a{position: absolute; right: 30px; top: 36px; width: 63px; height: 60px; background: url(img/link.png) no-repeat;}
+	</style>
 </head>
 <body>
 	<div class="main">
@@ -30,7 +41,20 @@
 			</div>	
 		</div>
 		<div class="content">
-		
+			<ul id="project">
+				<li>
+					<img src="img/project_azera.jpg">
+					<h3><b>这是个标题呀</b><i>2017-01-01</i></h3>
+					<p>简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介</p>
+					<a href="#"></a>
+				</li>
+				<li>
+					<img src="img/project_cls.jpg">
+					<h3><b>这是个标题呀</b><i>2017-01-01</i></h3>
+					<p>简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍简要介绍</p>
+					<a href="#"></a>
+				</li>
+			</ul>	
 		</div>
 		<div class="footer">
 			&copy;2017 <a href="http://www.douchaoyang.com/">douchaoyang</a>
@@ -41,7 +65,18 @@
 	<div id="music">SONG</div>
 
 	<script type="text/javascript">
-		
+	var project_data={
+		token:1,
+		list:[
+		{
+			img:"img/project_azera.jpg",
+			title:"这是个标题呀",
+			time:"2017-01-01",
+			info:"这是摘要，，，",
+			url:"http://www.douchaoyang.com/"
+		}
+		]
+	}
 	</script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
