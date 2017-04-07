@@ -13,7 +13,7 @@ function load_code_data(o) {
     if (!o.token) return;
     var _html = "",_url="";
     for (var i = 0; i < o.list.length; i++) {
-        _url = "http://v.t.sina.com.cn/share/share.php?appkey=941104388&pic="+encodeURIComponent("http://www.douchaoyang.com/img/weibo-share.jpg")+"&title="+encodeURIComponent(o.list[i].title)+" %23窦超阳F2E%23&url="+encodeURIComponent("http://www.douchaoyang.com/");
+        _url = "http://v.t.sina.com.cn/share/share.php?appkey=941104388&searchPic=true&title="+encodeURIComponent(o.list[i].title)+" %23窦超阳F2E%23&url="+encodeURIComponent("http://www.douchaoyang.com/");
         _html += "<li>" + "<h3>" + o.list[i].title + "<i>" + o.list[i].time + "</i><a target=\"_blank\" href=\""+_url+"\"></a></h3>" + "<pre>" + o.list[i].content + "</pre></li>";
     }
     document.getElementById("f2e-code").innerHTML = _html;

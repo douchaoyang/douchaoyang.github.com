@@ -24,6 +24,7 @@ body{background: #fff; position: relative;}
 #slogan{font-size: 64px; text-align: center; color: #ccc; padding: 100px 0; height: 200px; line-height: 150%; border-top: 1px solid #eee;}
 #music{width: 66px; height: 66px; overflow: hidden; position: fixed; bottom: 0; left: 0; _position: absolute; z-index: 1;}
 #music iframe{position: absolute; left: -10px; top: -10px;}
+#hide-area{width: 0; height: 0; overflow: hidden;}
 
 #f2e-code{padding-bottom: 40px; background: url(img/loading.gif) no-repeat center top;}
 #f2e-code li{border: 1px solid #eee; padding: 0 12px 12px 12px; background-color: #f8f8f8; margin-bottom: 12px;}
