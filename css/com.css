@@ -25,10 +25,21 @@ body{background: #fff; position: relative;}
 #music{width: 66px; height: 66px; overflow: hidden; position: fixed; bottom: 0; left: 0; _position: absolute; z-index: 1;}
 #music iframe{position: absolute; left: -10px; top: -10px;}
 
-#f2e-code{padding-bottom: 40px; background: url(img/loading.gif) no-repeat center top;}
+#f2e-code{padding-bottom: 40px; background: url(../img/loading.gif) no-repeat center top;}
 #f2e-code li{border: 1px solid #eee; padding: 0 12px 12px 12px; background-color: #f8f8f8; margin-bottom: 12px;}
 #f2e-code h3{font-size: 24px; padding: 18px 0; color: #b6b6b6; cursor: default; position: relative;}
 #f2e-code h3 i{font-size: 20px; color: #d6d6d6; font-style: italic; margin-left: 12px;}
 #f2e-code h3 a{width: 32px; height: 32px; position: absolute; right: 6px; top: 18px; background: url(../img/weibo-ico.png) no-repeat -32px 0;}
 #f2e-code h3 a:hover{background-position: 0 0;}
 #f2e-code pre{padding: 12px; background-color: #212121; color: #cdd3dd; font-size: 14px; line-height: 120%; overflow: hidden; text-overflow: ellipsis; cursor: default; border-top: 3px solid #9D2932; border-bottom: 6px solid #eee;}
+
+#project{border-top: 1px solid #eee; overflow: hidden; padding: 24px 0 0 0;}
+#project li{height: 132px; position: relative; overflow: hidden; padding-left: 312px; background: #fefefe url(../img/loading.gif) no-repeat 120px center; margin-bottom: 48px; border-bottom: 1px solid #eee; transition: all .2s; -webkit-transition: all .2s;}
+#project li:hover{background-color: #f3f3f3;}
+#project li img{position: absolute; left: 0; top: 0; transition: left .2s; -webkit-transition: left .2s; border-right: 2px solid #eee;}
+#project li h3{font-size: 32px; color: #c1c1c1; line-height: 60px; width: 580px; cursor: default;}
+#project li h3 b{color: #a1a1a1; font-weight: normal;}
+/*#project li h3 i{font-size: 24px; font-style: italic; margin-left: 12px;}*/
+#project li p{font-size: 16px; width: 580px; color: #b1b1b1; line-height: 22px; cursor: default;}
+#project li a{position: absolute; right: 30px; top: 36px; width: 63px; height: 60px; background: url(../img/link.png) no-repeat;}
+#project-tip{height: 132px; background-color: #fff; line-height: 132px; text-align: center; font-size: 36px; font-weight: 700; color: #ddd; margin-bottom: 40px;}
