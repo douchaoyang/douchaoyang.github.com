@@ -1,5 +1,5 @@
 load_project_data({
-	token:1,
+	token:0,
 	list:[
 	{
 		img:"img/project_azera.jpg",
