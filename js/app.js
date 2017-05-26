@@ -1,5 +1,8 @@
 /*canvas*/
 (function(){
+	var _particles = document.createElement("div");
+	_particles.id = "particles";
+	document.getElementsByTagName("body")[0].appendChild(_particles);
 	if(window.HTMLCanvasElement)
 	{
 		var _s = document.createElement("script");
@@ -11,7 +14,10 @@
 })();
 
 /*163 music*/
-var SONG_ID = 32192436;
+var _music = document.createElement("div");
+_music.id = "music";
+document.getElementsByTagName("body")[0].appendChild(_music);
+var SONG_ID = "32192436";
 function load163Music(id, song)
 {
 	var _html="<iframe frameborder=\"no\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" width=1000 height=86 src=\"http://music.163.com/outchain/player?type=2&id="+song+"&auto=0&height=66\"></iframe>";
