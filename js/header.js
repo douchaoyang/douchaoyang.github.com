@@ -6,7 +6,7 @@ document.writeln(
 '#header .nav{height: 60px; overflow: hidden; background-color: #fff;}'+
 '</style>'+
 '<div id="header">'+
-'	<h1><a href="/">Dou,Chaoyang :)</a></h1>'+
+'	<h1><a href="http://www.douchaoyang.com/">Dou,Chaoyang :)</a></h1>'+
 '	<div class="nav">'+
 '		<a href="/">F2E/CODE</a>'+
 '		<span>●</span>'+

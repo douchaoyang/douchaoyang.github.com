@@ -40,4 +40,4 @@ body{background: #fff; position: relative;}
 #project li a{position: absolute; right: 30px; top: 36px; width: 63px; height: 60px; background: url(../img/link.png) no-repeat;}
 #project-tip{height: 132px; background-color: #fff; line-height: 132px; text-align: center; font-size: 36px; font-weight: 700; color: #ddd; margin-bottom: 40px;}
 
-.says{}
+.says h2{text-align: center; padding: 90px 0; border-top: 1px solid #eee;}

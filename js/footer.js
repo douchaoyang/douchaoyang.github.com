@@ -1,9 +1,34 @@
 document.writeln(
 '<style>'+
-'#footer{background-color: #b1b1b1; color: #fff; text-align: center; line-height: 66px;}'+
-'#footer a{color: #fff;}'+
+'#footer{background-color: #282828; padding: 80px 50px 0 50px; border-top:1px solid #111; border-bottom: 1px solid #111;}'+
+'#footer .footer-bd{width: 900px; overflow: hidden; padding-bottom: 20px;}'+
+'#footer .footer-bd li{width: 250px; padding-left: 50px; float: left;}'+
+'#footer .footer-bd li dt{color: #bdbdbd; font-size: 16px; margin-bottom: 20px;}'+
+'#footer .footer-bd li dd{line-height: 22px; color: #666; font-size: 14px;}'+
+'#footer a{color: #666; font-size: 14px; transition: all .6s cubic-bezier(.19,1,.22,1); -webkit-transition: all .6s cubic-bezier(.19,1,.22,1);}'+
+'#footer a:hover{color: #888;}'+
+'#footer .footer-copy{padding: 22px 0; font-size: 12px; color: #666; text-align: center; border-top: 1px solid #464646;}'+
 '</style>'+
 '<div id="footer">'+
-'	&copy;2017 <a href="http://www.douchaoyang.com/">douchaoyang</a>'+
+'	<ul class="footer-bd">'+
+'		<li>'+
+'			<dl>'+
+'				<dt>LINKS</dt>'+
+'				<dd><a target="_blank" href="http://e.baidu.com/">百度推广</a></dd>'+
+'				<dd><a target="_blank" href="https://translate.google.cn/">Google 翻译</a></dd>'+
+'			</dl>'+
+'		</li>'+
+'		<li>'+
+'			<dl>'+
+'				<dt>CONTACT</dt>'+
+'				<dd>Gmail : <a href="mailto:douchaoyang@gmail.com">douchaoyang@gmail.com</a></dd>'+
+'				<dd>kik-id : <a>douchaoyang</a></dd>'+
+'			</dl>'+
+'		</li>'+
+'		<li>'+
+'			<img src="img/wechat.jpg" alt="wechat">'+
+'		</li>'+
+'	</ul>'+
+'	<p class="footer-copy">&copy;2017 <a href="http://www.douchaoyang.com/">douchaoyang.com</a> All rights reserved. </p>'+
 '</div>'
 );
