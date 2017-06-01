@@ -12,7 +12,7 @@ document.writeln(
 '		<span>●</span>'+
 '		<a href="/">PROJECT</a>'+
 '		<span>●</span>'+
-'		<a href="/">RESUME</a>'+
+'		<a href="/resume.html">RESUME</a>'+
 '		<span>●</span>'+
 '		<a href="/">OTHERS</a>'+
 '		<p>2 B CONTINUED<i class="spark1">.</i><i class="spark2">.</i><i class="spark3">.</i></p>'+

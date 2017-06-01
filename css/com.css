@@ -21,23 +21,51 @@ body{background: #fff; position: relative;}
 #music{width: 66px; height: 66px; overflow: hidden; position: fixed; bottom: 0; left: 0; _position: absolute; z-index: 1;}
 #music iframe{position: absolute; left: -10px; top: -10px;}
 
-#f2e-code{padding-bottom: 40px; background: url(../img/loading.gif) no-repeat center top;}
-#f2e-code li{border: 1px solid #eee; padding: 0 12px 12px 12px; background-color: #f8f8f8; margin-bottom: 12px;}
-#f2e-code h3{font-size: 24px; padding: 18px 0; color: #b6b6b6; cursor: default; position: relative;}
-#f2e-code h3 i{font-size: 20px; color: #d6d6d6; font-style: italic; margin-left: 12px;}
-#f2e-code h3 a{width: 32px; height: 32px; position: absolute; right: 6px; top: 18px; background: url(../img/weibo-ico.png) no-repeat -32px 0;}
-#f2e-code h3 a:hover{background-position: 0 0;}
-#f2e-code pre{padding: 12px; background-color: #212121; color: #cdd3dd; font-size: 14px; line-height: 120%; overflow: hidden; text-overflow: ellipsis; cursor: default; border-top: 3px solid #9D2932; border-bottom: 6px solid #eee;}
-
-#project{border-top: 1px solid #eee; overflow: hidden; padding: 24px 0 0 0;}
-#project li{height: 132px; position: relative; overflow: hidden; padding-left: 312px; background: #fefefe url(../img/loading.gif) no-repeat 120px center; margin-bottom: 48px; border-bottom: 1px solid #eee; transition: all .2s; -webkit-transition: all .2s;}
-#project li:hover{background-color: #f3f3f3;}
-#project li img{position: absolute; left: 0; top: 0; transition: left .2s; -webkit-transition: left .2s; border-right: 2px solid #eee;}
-#project li h3{font-size: 32px; color: #c1c1c1; line-height: 60px; width: 580px; cursor: default;}
-#project li h3 b{color: #a1a1a1; font-weight: normal;}
-/*#project li h3 i{font-size: 24px; font-style: italic; margin-left: 12px;}*/
-#project li p{font-size: 16px; width: 580px; color: #b1b1b1; line-height: 22px; cursor: default;}
-#project li a{position: absolute; right: 30px; top: 36px; width: 63px; height: 60px; background: url(../img/link.png) no-repeat;}
-#project-tip{height: 132px; background-color: #fff; line-height: 132px; text-align: center; font-size: 36px; font-weight: 700; color: #ddd; margin-bottom: 40px;}
-
 .says h2{text-align: center; padding: 90px 0; border-top: 1px solid #eee;}
+
+#resume{padding: 20px; border-top: 1px solid #eee; background-color: #f0f0f0;}
+#resume .section{padding-bottom: 40px; border-bottom: 1px solid #e0e0e0;}
+#resume .section-header{font-size: 32px; padding: 40px 0 40px 70px; color: #282828; background: url(../img/item.png) no-repeat 10px center;}
+#resume .section-header b{color: #9D2932; font-size: 36px; font-weight:500;}
+#resume .skill{width: 960px; overflow: hidden;}
+#resume .skill li{width: 111px; height: 142px; float: left; position: relative; overflow: hidden; *display: inline; *zoom:1 ; margin: 0 24px;}
+#resume .skill li span{width: 111px; position: absolute; left: 0; bottom: 0; height: 0; transition: all .6s cubic-bezier(.19,1,.22,1); -webkit-transition: all .6s cubic-bezier(.19,1,.22,1); text-indent: -9999em;}
+#resume .skill-html{background: url(../img/html-bg.png) no-repeat;}
+#resume .skill-html span{background: url(../img/html.png) no-repeat left bottom;}
+#resume .skill-html:hover span{height: 90%;}
+#resume .skill-css{background: url(../img/css-bg.png) no-repeat;}
+#resume .skill-css span{background: url(../img/css.png) no-repeat left bottom;}
+#resume .skill-css:hover span{height: 90%;}
+#resume .skill-js{background: url(../img/js-bg.png) no-repeat;}
+#resume .skill-js span{background: url(../img/js.png) no-repeat left bottom;}
+#resume .skill-js:hover span{height: 80%;}
+#resume .skill-jquery{background: url(../img/jquery-bg.png) no-repeat;}
+#resume .skill-jquery span{background: url(../img/jquery.png) no-repeat left bottom;}
+#resume .skill-jquery:hover span{height: 85%;}
+#resume .skill-php{background: url(../img/php-bg.png) no-repeat;}
+#resume .skill-php span{background: url(../img/php.png) no-repeat left bottom;}
+#resume .skill-php:hover span{height: 60%;}
+#resume .skill-ps{background: url(../img/ps-bg.png) no-repeat;}
+#resume .skill-ps span{background: url(../img/ps.png) no-repeat left bottom;}
+#resume .skill-ps:hover span{height: 65%;}
+#resume .school{padding: 0 24px;}
+#resume .school li{height: 95px; padding-left: 96px; position: relative; background-color: #e4e4e4; margin-bottom: 20px; transition: all .6s cubic-bezier(.19,1,.22,1); -webkit-transition: all .6s cubic-bezier(.19,1,.22,1);}
+#resume .school li:hover{box-shadow: 0 0 9px #ccc;}
+#resume .school li img{position: absolute; left: 0; top: 0; border-right: 1px solid #9D2932;}
+#resume .school li p{height: 100%; overflow: hidden; padding: 12px 0 0 20px; line-height: 150%; color: #666;}
+#resume .school li p b{font-size: 16px;}
+#resume .company{padding: 0 24px;}
+#resume .company li{margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #282828;}
+#resume .company li h3{font-size: 18px; color: #383838; padding-bottom: 14px;}
+#resume .company li h3 b{font-size: 20px;}
+#resume .company li h3 i.on-line{font-size: 18px; color: #39aa44;}
+#resume .company li h3 i.off-line{font-size: 18px; color: #9D2932;}
+#resume .company li p{font-size: 16px; color: #808080; line-height: 150%;}
+#resume .project{width: 960px; overflow: hidden;}
+#resume .project li{width: 300px; height: 220px; float: left; overflow: hidden; margin: 9px; *display: inline; *zoom: 1; border: 1px solid #e1e4e8; background: #f9f9f9 url(../img/loading.gif) no-repeat center 48px;}
+#resume .project li a{display: block; width: 300px; height: 136px; overflow: hidden; position: relative;}
+#resume .project li a i{ position: absolute; left: 0; top: 132px; height: 3px; width: 0; border-top: 1px solid #ccc; background-color: #9D2932; transition: all .4s; -webkit-transition: all .4s;}
+#resume .project li a:hover i{width: 100%;}
+#resume .project li h4{color: #282828; font-size: 14px; font-weight: 600px; padding: 8px 0 6px 10px;}
+#resume .project li p{font-size: 12px; padding: 0 10px; color: #888;}
+#resume .project li .tip{display: block; line-height: 220px; text-align: center; font-size: 36px; color: #ccc; font-weight: bold; background-color: #f9f9f9;}
