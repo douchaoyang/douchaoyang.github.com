@@ -13,14 +13,5 @@
 	}
 })();
 
-/*163 music*/
-var _music = document.createElement("div");
-_music.id = "music";
-document.getElementsByTagName("body")[0].appendChild(_music);
-var SONG_ID = "32192436";
-function load163Music(id, song)
-{
-	var _html="<iframe frameborder=\"no\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" width=1000 height=86 src=\"http://music.163.com/outchain/player?type=2&id="+song+"&auto=0&height=66\"></iframe>";
-	document.getElementById(id).innerHTML=_html
-};
-load163Music("music", SONG_ID);
+/*music*/
+var _music = document.createElement("div");_music.id = "music";document.getElementsByTagName("body")[0].appendChild(_music);document.getElementById("music").innerHTML = "<embed wmode=\"transparent\" src=\"js/player.swf?showDownload=false&amp;file=img/theseyears-douchaoyang.mp3&amp;autoStart=false&amp;backColor=000000&amp;frontColor=ffffff&amp;repeatPlay=false&amp;songVolume=100\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" width=\"25\" height=\"20\">";
