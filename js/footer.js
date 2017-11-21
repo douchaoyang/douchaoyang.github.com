@@ -14,7 +14,6 @@ document.writeln(
 '		<li>'+
 '			<dl>'+
 '				<dt>LINKS</dt>'+
-'				<dd><a target="_blank" href="http://e.baidu.com/">百度推广</a></dd>'+
 '				<dd><a target="_blank" href="https://translate.google.cn/">Google 翻译</a></dd>'+
 '			</dl>'+
 '		</li>'+
