@@ -18,7 +18,7 @@ body{background: #fff; position: relative;}
 @keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
 
 #slogan{font-size: 64px; text-align: center; color: #ccc; padding: 100px 0; height: 200px; line-height: 150%; border-top: 1px solid #eee;}
-#music{width: 25px; height: 20px; overflow: hidden; position: fixed; bottom: 0; left: 0; _position: absolute; z-index: 1;}
+#music{width: 25px; height: 20px; overflow: hidden; position: fixed; bottom: 0; right: 0; _position: absolute; z-index: 1;}
 .says h2{text-align: center; padding: 90px 0; border-top: 1px solid #eee;}
 
 #resume{padding: 20px; border-top: 1px solid #eee; background-color: #f0f0f0;}
