@@ -10,7 +10,7 @@ document.writeln(
 '	<div class="nav">'+
 '		<a href="/">F2E/CODE</a>'+
 '		<span>●</span>'+
-'		<a href="/">PROJECT</a>'+
+'		<a href="https://github.com/douchaoyang">PROJECT</a>'+
 '		<span>●</span>'+
 '		<a href="/resume.html">RESUME</a>'+
 '		<span>●</span>'+
