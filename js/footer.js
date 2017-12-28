@@ -31,3 +31,10 @@ document.writeln(
 '	<p class="footer-copy">&copy;2017 <a href="http://www.douchaoyang.com/">douchaoyang.com</a> All rights reserved. </p>'+
 '</div>'
 );
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?47292a538b681b1a4661d9d59a2ef631";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
