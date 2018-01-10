@@ -235,6 +235,16 @@
 								</p>
 							</li>
 							<li>
+								<a href="javascript:startrek.Pop();" target="_blank">
+									<img src="img/project_startrek.jpg">
+									<i></i>
+								</a>
+								<h4>星际迷航小游戏</h4>
+								<p>
+									基于Laya游戏开发引擎和MornUI框架，后端通信使用php。
+								</p>
+							</li>
+							<li>
 								<em class="tip">
 									敬请期待...
 								</em>
@@ -247,5 +257,18 @@
 		<script type="text/javascript" src="js/footer.js"></script>
 	</div>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="public/core.lib.js"></script>
+	<script type="text/javascript">
+	var startrek = null;
+	(function($){
+		$.loadScript("Yplayer/plug.yplayer.js",function(){
+			startrek = new Yplayer({
+				url:"http://www.douchaoyang.com/img/startrek.mp4",
+				width:728,
+				height:412
+			});
+		})
+	})(core);
+	</script>
 </body>
 </html>
