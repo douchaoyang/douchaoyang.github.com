@@ -28,7 +28,7 @@ document.writeln(
 '			<img src="img/wechat.jpg" alt="wechat">'+
 '		</li>'+
 '	</ul>'+
-'	<p class="footer-copy">&copy;2017 <a href="http://www.douchaoyang.com/">douchaoyang.com</a> All rights reserved. </p>'+
+'	<p class="footer-copy">&copy;2018 <a href="http://www.douchaoyang.com/">douchaoyang.com</a> All rights reserved. </p>'+
 '</div>'
 );
 var _hmt = _hmt || [];
