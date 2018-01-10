@@ -14,4 +14,4 @@
 })();
 
 /*music*/
-var _music = document.createElement("div");_music.id = "music";document.getElementsByTagName("body")[0].appendChild(_music);document.getElementById("music").innerHTML = "<embed wmode=\"transparent\" src=\"js/player.swf?showDownload=false&amp;file=img/theseyears-douchaoyang.mp3&amp;autoStart=true&amp;backColor=000000&amp;frontColor=ffffff&amp;repeatPlay=true&amp;songVolume=100\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" width=\"25\" height=\"20\">";
+var _music = document.createElement("div");_music.id = "music";document.getElementsByTagName("body")[0].appendChild(_music);document.getElementById("music").innerHTML = "<embed wmode=\"transparent\" src=\"js/player.swf?showDownload=false&amp;file=img/theseyears-douchaoyang.mp3&amp;autoStart=false&amp;backColor=000000&amp;frontColor=ffffff&amp;repeatPlay=true&amp;songVolume=100\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" width=\"25\" height=\"20\">";
