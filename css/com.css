@@ -18,8 +18,14 @@ body{background: #fff; position: relative;}
 @keyframes spark{0%{opacity: 0;}100%{opacity: 1;}}
 
 #slogan{font-size: 64px; text-align: center; color: #ccc; padding: 100px 0; height: 200px; line-height: 150%; border-top: 1px solid #eee;}
-#music{width: 25px; height: 20px; overflow: hidden; position: fixed; bottom: 0; right: 0; _position: absolute; z-index: 1;}
 .says h2{text-align: center; padding: 90px 0; border-top: 1px solid #eee;}
+
+/*歌曲*/
+#album {width: 102px; height: 102px; position: fixed; right: 0; top: 50%; margin-top: -50px; z-index: 100;}
+#mic-ctrl {width: 100px; height: 100px; position: absolute; right: 0; top: 0; border: 1px solid #ce3b4d; background: #e5e5e5 url(../img/play.gif) no-repeat 0 0; z-index: 99;}
+#mic-list {width: 200px; height: 100px; position: absolute; right: -100px; top: 0; border: 1px solid #ce3b4d; background-color: #e5e5e5; overflow-x: hidden; z-index: 10; -webkit-transition: right ease .2s; transition: right ease .2s;}
+#mic-list a {display: block; height: 33px; line-height: 33px; text-align: center; color: #404040; border-bottom: 1px solid #999; cursor: pointer;}
+#mic-list a:hover {background-color: #999;}
 
 #resume{padding: 20px; border-top: 1px solid #eee; background-color: #f0f0f0;}
 #resume .section{padding-bottom: 40px; border-bottom: 1px solid #e0e0e0;}
