@@ -96,14 +96,6 @@ var songs = {
             url: "http://qiniuuwmp3.changba.com/958365898.mp3"
             },
             {
-            name: "幸福是被你需要",
-            url: "http://qiniuuwmp3.changba.com/958358476.mp3"
-            },
-            {
-            name: "不分手的恋爱",
-            url: "http://qiniuuwmp3.changba.com/954037879.mp3"
-            },
-            {
             name: "爱的供养",
             url: "http://qiniuuwmp3.changba.com/954027558.mp3"
             },
