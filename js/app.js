@@ -32,18 +32,6 @@ var songs = {
             url: "http://qiniuuwmp3.changba.com/1033538058.mp3"
             },
             {
-            name: "只要有你",
-            url: "http://qiniuuwmp3.changba.com/1033529044.mp3"
-            },
-            {
-            name: "晴天",
-            url: "http://lzscuw.changba.com/1033523406.mp3"
-            },
-            {
-            name: "需要人陪",
-            url: "http://lzscuw.changba.com/1019224123.mp3"
-            },
-            {
             name: "斑马斑马",
             url: "http://qiniuuwmp3.changba.com/998115437.mp3"
             },
@@ -60,68 +48,16 @@ var songs = {
             url: "http://qiniuuwmp3.changba.com/980489491.mp3"
             },
             {
-            name: "醉拳",
-            url: "http://qiniuuwmp3.changba.com/980459470.mp3"
-            },
-            {
-            name: "小幸运",
-            url: "http://qiniuuwmp3.changba.com/976878450.mp3"
-            },
-            {
-            name: "小酒窝",
-            url: "http://qiniuuwmp3.changba.com/968517576.mp3"
-            },
-            {
             name: "友情岁月",
             url: "http://lzscuw.changba.com/968050614.mp3"
-            },
-            {
-            name: "年轻的战场",
-            url: "http://lzscuw.changba.com/968045305.mp3"
-            },
-            {
-            name: "诀别诗",
-            url: "http://qiniuuwmp3.changba.com/961495082.mp3"
             },
             {
             name: "爱拼才会赢",
             url: "http://qiniuuwmp3.changba.com/960983555.mp3"
             },
             {
-            name: "再回首",
-            url: "http://qiniuuwmp3.changba.com/960976893.mp3"
-            },
-            {
-            name: "等不到的爱",
-            url: "http://qiniuuwmp3.changba.com/958365898.mp3"
-            },
-            {
-            name: "爱的供养",
-            url: "http://qiniuuwmp3.changba.com/954027558.mp3"
-            },
-            {
             name: "爱要怎么说出口",
             url: "http://qiniuuwmp3.changba.com/937751790.mp3"
-            },
-            {
-            name: "梦醒时分",
-            url: "http://lzscuw.changba.com/930404013.mp3"
-            },
-            {
-            name: "爱江山更爱美人",
-            url: "http://qiniuuwmp3.changba.com/928240082.mp3"
-            },
-            {
-            name: "西海情歌",
-            url: "http://qiniuuwmp3.changba.com/928223795.mp3"
-            },
-            {
-            name: "月亮代表我的心",
-            url: "http://qiniuuwmp3.changba.com/924752867.mp3"
-            },
-            {
-            name: "会呼吸的痛",
-            url: "http://qiniuuwmp3.changba.com/920375046.mp3"
             },
             {
             name: "童年",
@@ -178,22 +114,6 @@ var songs = {
             {
             name: "套马杆",
             url: "http://lzscuw.changba.com/868561709.mp3"
-            },
-            {
-            name: "风继续吹",
-            url: "http://qiniuuwmp3.changba.com/868536545.mp3"
-            },
-            {
-            name: "沉默是金",
-            url: "http://qiniuuwmp3.changba.com/864729484.mp3"
-            },
-            {
-            name: "丑八怪",
-            url: "http://qiniuuwmp3.changba.com/863504936.mp3"
-            },
-            {
-            name: "微微一笑很倾城",
-            url: "http://qiniuuwmp3.changba.com/863445551.mp3"
             },
             {
             name: "刚刚好",
