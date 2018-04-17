@@ -48,6 +48,10 @@ var songs = {
             url: "http://qiniuuwmp3.changba.com/980489491.mp3"
             },
             {
+            name: "小幸运",
+            url: "http://qiniuuwmp3.changba.com/976878450.mp3"
+            },
+            {
             name: "友情岁月",
             url: "http://lzscuw.changba.com/968050614.mp3"
             },
