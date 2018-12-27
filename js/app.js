@@ -20,8 +20,20 @@ var songs = {
     list:null,
     datas:[
             {
+            name: "这些年来",
+            url: "http://qiniuuwmp3.changba.com/870826173.mp3"
+            },
+            {
             name: "十七岁",
             url: "https://qiniuuwmp3.changba.com/1048485277.mp3"
+            },
+            {
+            name: "斑马斑马",
+            url: "http://qiniuuwmp3.changba.com/998115437.mp3"
+            },
+            {
+            name: "讲不出再见",
+            url: "http://lzscuw.changba.com/896766428.mp3"
             },
             {
             name: "隐形的翅膀",
@@ -30,10 +42,6 @@ var songs = {
             {
             name: "后来",
             url: "http://qiniuuwmp3.changba.com/1033538058.mp3"
-            },
-            {
-            name: "斑马斑马",
-            url: "http://qiniuuwmp3.changba.com/998115437.mp3"
             },
             {
             name: "当年情",
@@ -80,10 +88,6 @@ var songs = {
             url: "http://qiniuuwmp3.changba.com/900999190.mp3"
             },
             {
-            name: "讲不出再见",
-            url: "http://lzscuw.changba.com/896766428.mp3"
-            },
-            {
             name: "伤心太平洋",
             url: "http://qiniuuwmp3.changba.com/895125844.mp3"
             },
@@ -102,10 +106,6 @@ var songs = {
             {
             name: "爱一个人好难",
             url: "http://lzscuw.changba.com/872623401.mp3"
-            },
-            {
-            name: "这些年来",
-            url: "http://qiniuuwmp3.changba.com/870826173.mp3"
             },
             {
             name: "一直很安静",
