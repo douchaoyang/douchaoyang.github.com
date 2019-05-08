@@ -20,6 +20,14 @@ var songs = {
     list:null,
     datas:[
             {
+            name: "唐人",
+            url: "http://upscuw.changba.com/1161300843.mp3"
+            },
+            {
+            name: "清明雨上",
+            url: "http://upscuw.changba.com/1156258746.mp3"
+            },
+            {
             name: "这些年来",
             url: "http://qiniuuwmp3.changba.com/870826173.mp3"
             },
