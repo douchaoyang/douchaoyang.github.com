@@ -3,7 +3,7 @@
 **@Relyed  core.lib.js
 */
 (function($){
-    $.loadCss("plug.yplayer.css",function(){})
+    $.loadCss("Yplayer/plug.yplayer.css",function(){})
 })(core);
 
 window.Yplayer = window.Yplayer || (function($){
