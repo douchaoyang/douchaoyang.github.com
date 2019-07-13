@@ -17,7 +17,13 @@ var songs = {
     album:null,
     player:null,
     ctrl:null,
-    list:null,
+    prev:null,
+    next:null,
+    tip: null,
+    now: null,
+    line: null,
+    length: 0,
+    index: 0,
     datas:[
             {
             name: "唐人",
@@ -135,59 +141,68 @@ var songs = {
 }
 songs.init = function() {
     var _t = this;
-    // 先将播放器加入到html中
-    document.getElementsByTagName("body")[0].innerHTML += 
-        "<div id=\"album\">"+
-        "<audio loop id=\"mic-player\"></audio>"+
-        "<a id=\"mic-ctrl\"></a>"+
-        "<div id=\"mic-list\"></div>"+
-        "</div>";
     // 获取各个元素
     _t.album  = document.getElementById("album");
-    _t.player = document.getElementById("mic-player");
-    _t.ctrl   = document.getElementById("mic-ctrl");
-    _t.list   = document.getElementById("mic-list");
+    _t.player = document.getElementById("player-mic");
+    _t.ctrl   = document.getElementById("play-mic");
+    _t.prev   = document.getElementById("prev-mic");
+    _t.next   = document.getElementById("next-mic");
+    _t.tip    = document.getElementById("tip-mic");
+    _t.now    = document.getElementById("now-mic");
+    _t.line   = document.getElementById("line-mic");
+    _t.length = _t.datas.length;
     // 默认添加第一首歌
-    _t.player.src = _t.datas[0].url;
-    // 渲染歌曲列表
-    var inner = "";
-    for(var i=0; i<_t.datas.length; i++) {
-        inner += "<a data-src=\""+_t.datas[i].url+"\">"+_t.datas[i].name+"</a>";
-    }
-    _t.list.innerHTML = inner;
-    // 给每首歌添加播放逻辑
-    var sing = _t.list.getElementsByTagName("a");
-    for(var k=0; k<sing.length; k++) {
-        (function(k){
-          sing[k].addEventListener("click", function(){
-            _t.player.src = sing[k].getAttribute("data-src");
-            _t.player.play();
-            _t.ctrl.style.backgroundPosition = "0 -100px";
-          }, false);
-        })(k);
-    }
+    _t.go(_t.index);
     // 返回songs对象
     return _t;
+}
+songs.go = function(i) {
+    var _t = this;
+    _t.player.src = _t.datas[i].url;
+    _t.now.innerHTML = _t.datas[i].name + ' - 吾辈组长';
 }
 songs.play = function() {
     var _t = this;
     // 播放与暂停
-    _t.ctrl.addEventListener("click", function(){
+    _t.ctrl.addEventListener("click", function (){
         if(_t.player.paused) {
             _t.player.play();
-            _t.ctrl.style.backgroundPosition = "0 -100px";
         }
         else {
             _t.player.pause();
-            _t.ctrl.style.backgroundPosition = "0 0";
         }
     }, false);
-    // 列表的显示隐藏
-    _t.album.addEventListener("mouseover", function(){
-        _t.list.style.right = "100px";
+    // 监听歌曲播放、暂停、结束
+    _t.player.addEventListener("play", function () {
+        // 显示动态的tip
+        _t.tip.style.display = "block";
+        // 显示歌曲名字
+        _t.now.className = "marq";
+        _t.ctrl.className = "pause";
+    });
+    _t.player.addEventListener("pause", function () {
+        // 显示动态的tip
+        _t.tip.style.display = "none";
+        // 显示歌曲名字
+        _t.now.className = "";
+        _t.ctrl.className = "";
+    });
+    _t.player.addEventListener("timeupdate", function() {
+        _t.line.style.width = _t.player.currentTime / _t.player.duration * 100 + "%";
+    });
+    // 上一首
+    _t.prev.addEventListener("click", function() {
+        _t.now.className = "";
+        _t.index = (--_t.index + _t.length) % _t.length;
+        _t.go(_t.index);
+        _t.player.play();
     }, false);
-    _t.album.addEventListener("mouseleave", function(){
-        _t.list.style.right = "-100px";
+    // 下一首
+    _t.next.addEventListener("click", function() {
+        _t.now.className = "";
+        _t.index = (++_t.index + _t.length) % _t.length;  
+        _t.go(_t.index);
+        _t.player.play();
     }, false);
 }
 // 加载歌曲
