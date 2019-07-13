@@ -3,25 +3,25 @@ var player = (function() {
 	var Audios = [
 		{
 			title: "Coldplay - something just like this",
-			src: "audio/2.mp3",
+			src: "https://youzupt.oss-cn-shanghai.aliyuncs.com/y_web/fe33671c-8740-4d0a-a44f-82d5c45555da_2019-07-01.mp3",
 			icon: "",
 			author: ""
 		},
 		{
 			title: "Cleopatra Stratan - Zunea-Zunea",
-			src: "audio/1.mp3",
+			src: "https://youzupt.oss-cn-shanghai.aliyuncs.com/y_web/71a8b3b1-901d-408f-aea1-917cfc4558b5_2019-07-01.mp3",
 			icon: "",
 			author: ""
 		},
 		{
 			title: "Defrix - Walking In the Sun",
-			src: "audio/3.mp3",
+			src: "https://youzupt.oss-cn-shanghai.aliyuncs.com/y_web/0043ddcb-e2a0-4ecb-8a54-c34cfa515e6a_2019-07-01.mp3",
 			icon: "",
 			author: ""
 		},
 		{
 			title: "Gigi D´Agastino - tu vivi nell'aria",
-			src: "audio/4.mp3",
+			src: "https://youzupt.oss-cn-shanghai.aliyuncs.com/y_web/66652807-4693-49fa-80a2-e8f93b5fcb21_2019-07-01.mp3",
 			icon: "",
 			author: ""
 		}
