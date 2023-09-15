@@ -1,0 +1,11 @@
+a,b,body,button,blockquote,canvas,dd,div,dl,dt,em,fieldset,form,footer,frame,frameset,h1,h2,h3,h4,h5,h6,header,i,iframe,img,input,label,li,main,nav,ol,optgroup,p,pre,section,select,span,strong,table,tr,thead,th,tbody,td,textarea,ul,video{margin:0;padding:0}
+body{font-size:14px;font-family:"Microsoft Yahei",arial;overflow-x:hidden}
+em,strong,th,i,b{font-style:normal;font-weight:normal}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+a{text-decoration:none;cursor:pointer;outline:none}
+a:hover,a:active{outline-width:0}
+table{border-collapse:collapse;border-spacing:0}
+ol,ul,li{list-style:none outside none}
+input{border:0;outline:0}
+fieldset,img{border:0}
+.clearfix:after{content:"";display:block;height:0;clear:both}

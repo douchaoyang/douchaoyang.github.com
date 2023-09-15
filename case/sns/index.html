@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>pc分享插件</title>
+    <link rel="stylesheet" type="text/css" href="reset.pc.css" />
+    <style type="text/css">
+      body {
+        height: 2000px;
+        background-color: #292929;
+      }
+      #test {
+        margin: 200px 0 0 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="test"></div>
+    <script
+      type="text/javascript"
+      src="https://file.eefcdn.com/campaign/eefocus/js/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="eefsns.js"></script>
+    <script type="text/javascript">
+      eefsns
+        .set({
+          url: "https://www.baidu.com/",
+          title: "从这里开始是分享的标题！",
+          desc: "从这里开始是分享的描述！",
+          pic: "https://www.baidu.com/img/flexible/logo/pc/index.png",
+        })
+        .init({
+          box: $("#test")[0],
+          bgcolor: "#fff",
+          color: "#f6e5a2",
+          list: "wx,sina,qzone,qq,tieba",
+        });
+    </script>
+  </body>
+</html>
